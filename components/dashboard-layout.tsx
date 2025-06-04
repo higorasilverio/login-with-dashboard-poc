@@ -55,7 +55,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
             <p className="px-6 text-xs font-semibold uppercase tracking-wider text-gray-400">MENU</p>
             <nav className="mt-2 px-3 space-y-1">
               <Link
-                href="/dashboard"
+                href="/"
                 className="flex items-center rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100"
               >
                 <LayoutDashboard className="mr-3 h-5 w-5 text-gray-500" />
@@ -89,11 +89,11 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
           <div className="border-t p-4">
             <div className="flex items-center">
               <Avatar className="h-10 w-10 border">
-                <AvatarImage src="/placeholder-user.jpg" alt="Romário" />
-                <AvatarFallback>RM</AvatarFallback>
+                <AvatarImage src="/placeholder-user.jpg" alt="Kaique Steck" />
+                <AvatarFallback>KS</AvatarFallback>
               </Avatar>
               <div className="ml-3">
-                <p className="text-sm font-medium">Romário</p>
+                <p className="text-sm font-medium">Kaique Steck</p>
                 <p className="text-xs text-gray-500">Administrador</p>
               </div>
             </div>
