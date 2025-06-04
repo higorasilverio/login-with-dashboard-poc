@@ -106,9 +106,12 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
                 variant="ghost"
                 size="sm"
                 className="w-full justify-start text-red-600 hover:text-red-700 hover:bg-red-50"
+                asChild
               >
-                <LogOut className="mr-2 h-4 w-4" />
-                Sair
+                <Link href="/login">
+                  <LogOut className="mr-2 h-4 w-4" />
+                  Sair
+                </Link>
               </Button>
             </div>
           </div>
